@@ -7,7 +7,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 
-	const [selected, setSelected] = useState ("red");
+	//const [selected, setSelected] = useState ("red");
+	let selected = "yellow";
 
 	return (
 		<div className="semaforo">
