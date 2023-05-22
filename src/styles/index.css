@@ -16,12 +16,21 @@
     width: 100px;
     height: 100px;
 }
-
-.semaforo {
+#semaforoTop{
     background-color: black;
-    display: inline-block;
+    height: 150px;
+    width: 20px;
+    margin: auto;
+}
+
+#semaforo {
+    background-color: black;
+    height: 320px;
+    width: 120px;
     padding: 10px;
     margin: auto;
+    border-radius: 10%;
+    
 }
 
 .red {background-color: red;}
@@ -31,5 +40,5 @@
 .green {background-color: green;}
 
 .glow {
-    box-shadow: 0px 0px 32px 0px #fef69b;
+    box-shadow: 0px 0px 32px 10px #fef69b;
 }

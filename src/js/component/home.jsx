@@ -11,11 +11,13 @@ const Home = () => {
 	//let selected = "yellow";
 
 	return (
-		<div className="semaforo">
-			<div onClick={() => {setSelected("red")}} className={"light red " + " " + (selected === "red" ? "glow" : "")}></div>
-			<div onClick={() => {setSelected("yellow")}} className={"light yellow " + " " + (selected === "yellow" ? "glow" : "")}></div>
-			<div onClick={() => {setSelected("green")}} className={"light green" + " " + (selected === "green" ? "glow" : "")}></div>
-		
+		<div>
+			<div id="semaforoTop"></div>
+			<div id="semaforo">
+				<div onClick={() => {setSelected("red")}} className={"light red " + " " + (selected === "red" ? "glow" : "")}></div>
+				<div onClick={() => {setSelected("yellow")}} className={"light yellow " + " " + (selected === "yellow" ? "glow" : "")}></div>
+				<div onClick={() => {setSelected("green")}} className={"light green" + " " + (selected === "green" ? "glow" : "")}></div>
+			</div>
 		</div>
 	);
 };
