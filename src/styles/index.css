@@ -39,6 +39,14 @@
 
 .green {background-color: green;}
 
-.glow {
-    box-shadow: 0px 0px 32px 10px #fef69b;
+.glowYellow {
+    box-shadow: 0px 0px 32px 10px #fcf06f;
+}
+
+.glowRed {
+    box-shadow: 0px 0px 32px 10px #f54557;
+}   
+
+.glowGreen {
+    box-shadow: 0px 0px 32px 10px #41b156;
 }
